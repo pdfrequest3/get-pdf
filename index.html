@@ -36,7 +36,30 @@ h2.headertekst {
 }
 </style>
 -->
- <!-- Messenger Chat Plugin Code -->
+ 
+ <style>
+  body {
+    margin: 0;            /* Reset default margin */
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #FFFFFF;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+  </style>
+
+</head>
+<body>
+
+<!---
+<h2 class="headertekst"></h2>
+
+<div class="loader"></div>
+
+-->
+  <!-- Messenger Chat Plugin Code -->
     <div id="fb-root"></div>
 
     <!-- Your Chat Plugin code -->
@@ -63,29 +86,6 @@ h2.headertekst {
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
- <style>
-  body {
-    margin: 0;            /* Reset default margin */
-}
-iframe {
-    display: block;       /* iframes are inline by default */
-    background: #FFFFFF;
-    border: none;         /* Reset default border */
-    height: 100vh;        /* Viewport-relative units */
-    width: 100vw;
-}
-  </style>
-
-</head>
-<body>
-
-<!---
-<h2 class="headertekst"></h2>
-
-<div class="loader"></div>
-
--->
-  
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpAsn72w0NG8Ht01ENd2ZvqAy_XPBGyzR3lddam_3RlZ24NQ/viewform?embedded=true" frameborder="0" >Loading…</iframe>
 </body>
 </html>
