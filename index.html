@@ -36,13 +36,20 @@ h2.headertekst {
 }
 </style>
 -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script>
-jQuery(document).ready(function($){
-$("iframe").contents().find(".freebirdFormviewerViewNavigationPasswordWarning").hide();
  
-});
-</script>
+ <style>
+  body {
+    margin: 0;            /* Reset default margin */
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+  </style>
+
 </head>
 <body>
 
@@ -53,6 +60,6 @@ $("iframe").contents().find(".freebirdFormviewerViewNavigationPasswordWarning").
 
 -->
   
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpAsn72w0NG8Ht01ENd2ZvqAy_XPBGyzR3lddam_3RlZ24NQ/viewform?embedded=true" frameborder="0" height="100%" width="100%">Loading…</iframe>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpAsn72w0NG8Ht01ENd2ZvqAy_XPBGyzR3lddam_3RlZ24NQ/viewform?embedded=true" frameborder="0" >Loading…</iframe>
 </body>
 </html>
