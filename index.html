@@ -45,8 +45,10 @@ iframe {
     display: block;       /* iframes are inline by default */
     background: #FFFFFF;
     border: none;         /* Reset default border */
-    height: 100vh;        /* Viewport-relative units */
-    width: 100vw;
+    /* height: 100vh;         Viewport-relative units */
+    /* width: 100vw; */
+     height: 677px;        /* Viewport-relative units */
+    width: 100%;
 }
   </style>
 
@@ -59,33 +61,9 @@ iframe {
 <div class="loader"></div>
 
 -->
-  <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
+  
 
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "103349454710125");
-      chatbox.setAttribute("attribution", "biz_inbox");
-
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v11.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+    
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpAsn72w0NG8Ht01ENd2ZvqAy_XPBGyzR3lddam_3RlZ24NQ/viewform?embedded=true" frameborder="0" >Loading…</iframe>
 </body>
 </html>
